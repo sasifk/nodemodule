@@ -5,11 +5,11 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
 
 ## Installation
 
-  npm install scapegoat --save
+  npm install nodemodule --save
 
 ## Usage
 
-  var nodemodule = require('scapegoat')
+  var nodemodule = require('nodemodule')
       escape = nodemodule.escape,
       unescape = nodemodule.unescape;
 
