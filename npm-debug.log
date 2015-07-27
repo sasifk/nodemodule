@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git://github.com/sasifk/nodemodule.git' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose config Skipping project config: /Users/sasif/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/sasif/package.json
+6 verbose readDependencies loading dependencies from /Users/sasif/package.json
+7 silly cache add args [ 'git://github.com/sasifk/nodemodule.git', null ]
+8 verbose cache add spec git://github.com/sasifk/nodemodule.git
+9 silly cache add parsed spec { raw: 'git://github.com/sasifk/nodemodule.git',
+9 silly cache add   scope: null,
+9 silly cache add   name: null,
+9 silly cache add   rawSpec: 'git://github.com/sasifk/nodemodule.git',
+9 silly cache add   spec: 'git://github.com/sasifk/nodemodule.git',
+9 silly cache add   type: 'hosted',
+9 silly cache add   hosted:
+9 silly cache add    { type: 'github',
+9 silly cache add      ssh: 'git@github.com:sasifk/nodemodule.git',
+9 silly cache add      sshUrl: 'git+ssh://git@github.com/sasifk/nodemodule.git',
+9 silly cache add      httpsUrl: 'git+https://github.com/sasifk/nodemodule.git',
+9 silly cache add      gitUrl: 'git://github.com/sasifk/nodemodule.git',
+9 silly cache add      shortcut: 'github:sasifk/nodemodule',
+9 silly cache add      directUrl: 'https://raw.githubusercontent.com/sasifk/nodemodule/master/package.json' } }
+10 verbose addRemoteGit caching git://github.com/sasifk/nodemodule.git
+11 verbose addRemoteGit git://github.com/sasifk/nodemodule.git is a repository hosted by github
+12 silly tryClone cloning git://github.com/sasifk/nodemodule.git via git://github.com/sasifk/nodemodule.git
+13 verbose tryClone git-github-com-sasifk-nodemodule-git-c80181dc not in flight; caching
+14 info git [ 'clone',
+14 info git   '--template=/Users/sasif/.npm/_git-remotes/_templates',
+14 info git   '--mirror',
+14 info git   'git://github.com/sasifk/nodemodule.git',
+14 info git   '/Users/sasif/.npm/_git-remotes/git-github-com-sasifk-nodemodule-git-c80181dc' ]
+15 verbose mirrorRemote git://github.com/sasifk/nodemodule.git git clone git://github.com/sasifk/nodemodule.git
+16 verbose setPermissions git://github.com/sasifk/nodemodule.git set permissions on /Users/sasif/.npm/_git-remotes/git-github-com-sasifk-nodemodule-git-c80181dc
+17 verbose resolveHead git://github.com/sasifk/nodemodule.git original treeish: master
+18 info git [ 'rev-list', '-n1', 'master' ]
+19 silly resolveHead git://github.com/sasifk/nodemodule.git resolved treeish: cf3d510ee2606b303dcbee3727a42c83530e61ba
+20 verbose resolveHead git://github.com/sasifk/nodemodule.git resolved Git URL: git://github.com/sasifk/nodemodule.git#cf3d510ee2606b303dcbee3727a42c83530e61ba
+21 silly resolveHead Git working directory: /var/folders/3v/w8pn83t51b9f7k1wymz255p00000gp/T/npm-22397-6e53402b/git-cache-735b5aa3134d/cf3d510ee2606b303dcbee3727a42c83530e61ba
+22 info git [ 'clone',
+22 info git   '/Users/sasif/.npm/_git-remotes/git-github-com-sasifk-nodemodule-git-c80181dc',
+22 info git   '/var/folders/3v/w8pn83t51b9f7k1wymz255p00000gp/T/npm-22397-6e53402b/git-cache-735b5aa3134d/cf3d510ee2606b303dcbee3727a42c83530e61ba' ]
+23 verbose cloneResolved git://github.com/sasifk/nodemodule.git clone Cloning into '/var/folders/3v/w8pn83t51b9f7k1wymz255p00000gp/T/npm-22397-6e53402b/git-cache-735b5aa3134d/cf3d510ee2606b303dcbee3727a42c83530e61ba'...
+23 verbose cloneResolved done.
+24 info git [ 'checkout', 'cf3d510ee2606b303dcbee3727a42c83530e61ba' ]
+25 verbose checkoutTreeish git://github.com/sasifk/nodemodule.git checkout Note: checking out 'cf3d510ee2606b303dcbee3727a42c83530e61ba'.
+25 verbose checkoutTreeish
+25 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+25 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+25 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+25 verbose checkoutTreeish
+25 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+25 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+25 verbose checkoutTreeish
+25 verbose checkoutTreeish   git checkout -b new_branch_name
+25 verbose checkoutTreeish
+25 verbose checkoutTreeish HEAD is now at cf3d510... Removed README file, just testing commands
+26 error addLocal Could not install /var/folders/3v/w8pn83t51b9f7k1wymz255p00000gp/T/npm-22397-6e53402b/git-cache-735b5aa3134d/cf3d510ee2606b303dcbee3727a42c83530e61ba
+27 verbose stack Error: EISDIR, read
+27 verbose stack     at Error (native)
+28 verbose cwd /Users/sasif
+29 error Darwin 13.3.0
+30 error argv "node" "/usr/local/bin/npm" "install" "git://github.com/sasifk/nodemodule.git"
+31 error node v0.12.7
+32 error npm  v2.11.3
+33 error code EISDIR
+34 error errno -21
+35 error EISDIR, read
+36 error If you need help, you may report this error at:
+36 error     <https://github.com/npm/npm/issues>
+37 verbose exit [ -21, true ]
