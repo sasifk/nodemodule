@@ -16,7 +16,10 @@
     "unescape",
     "html"
   ],
-  "author": "Sarah Asif <sasif@ivantagehealth.com>",
+  "author": {
+    "name": "Sarah Asif",
+    "email": "sasif@ivantagehealth.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sasifk/nodemodule/issues"
@@ -26,6 +29,4 @@
     "chai": "^3.2.0",
     "mocha": "^2.2.5"
   }
-    
-    
 }
