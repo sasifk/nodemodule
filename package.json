@@ -1,6 +1,6 @@
 {
   "name": "nodemodule",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "A sample node module that provides utility methods to escape aand unescape HTML entities",
   "main": "index.js",
  "scripts": {
